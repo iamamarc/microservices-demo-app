@@ -35,14 +35,6 @@ hystrix:
           thread:
             timeoutInMilliseconds: 10000
 
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    hostname: localhost
 
 management:
   endpoints:
